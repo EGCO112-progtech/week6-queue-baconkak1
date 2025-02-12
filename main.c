@@ -21,7 +21,7 @@ int main(int argc , char **argv) {
             x=dequeue_struct(&q);
             printf("dequeing %d\n",x);
             }
-            else printf("Empty queue");
+            else printf("Empty queue\n");
             }
         else {
        enqueue_struct(&q, atoi(argv[i]));
